@@ -10,13 +10,13 @@
 # g -> $s1
 
 # Definição do array (checar com o professor)
-#.data
-#array: .word 45, 2, 3, 77, 87, 101, 44, 25, 39
+.data
+array: .word 45, 2, 3, 77, 87, 101, 44, 25, 39
 
 .text
-#	la  $s2, array           # Definindo $s2 = A
-#	li  $s0, 3               # Definindo $s0 = i
-#	li  $s1, 5               # Definindo $s1 = g
+	la  $s2, array           # Definindo $s2 = A
+	li  $s0, 3               # Definindo $s0 = i
+	li  $s1, 5               # Definindo $s1 = g
 	
 	add $t0, $s0, $s0        # $t0 = 2 * i
 	add $t0, $t0, $t0        # $t0 = 4 * i
