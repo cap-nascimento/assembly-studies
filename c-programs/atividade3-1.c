@@ -3,7 +3,8 @@
 int main()
 {
 
-	int u, z, w, x, y;
+	int u;                 // $s0
+	int z, w, x, y;
 
 	z = 5;                 // $s1
 	w = 12;                // $s2
@@ -18,3 +19,4 @@ int main()
 
 	return 0;
 }
+

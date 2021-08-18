@@ -5,10 +5,10 @@
 # $s3 = x
 # $s4 = y
 
-bne $s3, $s4, L1
+bne $s3, $s4, rafael
 add $s0, $s1, $s2
 j L2
 
-L1:
+rafael:
 	sub $s0, $s1, $s2
 L2:
