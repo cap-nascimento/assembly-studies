@@ -20,10 +20,10 @@
 # j = $s4        |    i - j = $t3
 
 .text
-    addi $s1, $zero, 3       # g = 3
-    addi $s2, $zero, 4       # h = 4
-    addi $s3, $zero, 12      # i = 5 
-    addi $s4, $zero, 15      # j = 6
+    addi $s1, $zero, 77      # g = 77
+    addi $s2, $zero, 99      # h = 99
+    addi $s3, $zero, 12      # i = 12 
+    addi $s4, $zero, 15      # j = 15
     
     addi $t4, $zero, 1
     addi $t5, $zero, 2
